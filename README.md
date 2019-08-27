@@ -10,7 +10,7 @@ A simple social network style newsfeed in ReactJS
 
 2. Run ```yarn```
 
-3. run ```yarn start```
+3. Run ```yarn start```
 
 #### Proposed functionality for future release:
 
