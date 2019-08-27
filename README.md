@@ -2,6 +2,8 @@
 
 A simple social network style newsfeed in ReactJS
 
+[Link to deployed app](https://priceless-einstein-a13c97.netlify.com)
+
 #### How to run this app
 
 1. Fork or download repository
@@ -26,5 +28,5 @@ A simple social network style newsfeed in ReactJS
 
 7. Ability to edit posts
 
-8. Add connections which will be stored in a database
+8. Add friends/connections which will be stored in a database
 
