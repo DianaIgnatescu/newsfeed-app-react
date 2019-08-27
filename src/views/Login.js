@@ -3,6 +3,7 @@ import { Redirect } from 'react-router-dom';
 import styled from 'styled-components';
 
 import FormInput from '../components/FormInput';
+import NewsFeed from './NewsFeed';
 
 class Login extends React.Component {
   constructor(props) {
@@ -40,7 +41,7 @@ class Login extends React.Component {
   render() {
     const { loggedIn } = this.state;
     if (loggedIn) {
-      return <Redirect exact path to="/" />
+      return <Redirect to={NewsFeed} />
     }
     return (
       <LoginWrapper>
